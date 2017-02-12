@@ -1,0 +1,19 @@
+{
+  "name": "jquery.scroll-char",
+  "homepage": "https://github.com/jfehrman/jquery.scroll-char",
+  "authors": [
+    "Joe <joseph.fehrman@gmail.com>"
+  ],
+  "description": "",
+  "main": "jquery.scroll-char.js",
+  "keywords": [
+    "jquery",
+    "jQuery",
+    "javascript",
+    "plugin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

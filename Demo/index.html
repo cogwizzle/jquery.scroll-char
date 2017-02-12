@@ -1,0 +1,20 @@
+<html>
+<head>
+  <title>Test Page</title>
+</head>
+<body>
+  <img id="character"/ style="margin: auto;position: fixed; top: 0; left: 0; bottom: 0; right: 0;">
+  <div style="height:90000px"></div>
+</body>
+<script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="../src/jquery.scrollchar.js"></script>
+<script type="text/javascript">
+  var options = {
+    "stand" : "../src/test-images/standing.svg",
+    "step1" : "../src/test-images/walk-left.svg",
+    "step2" : "../src/test-images/walk-right.svg",
+    "target" : "#character"
+  }
+  jQuery.fn.scrollchar(options);
+</script>
+</html>
